@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:'宋体';
+	font-size: 12px;
+	color:#534616;
+	
+	
+}
+a{
+	text-decoration: none;
+	font-color:black;
+}
+#wrapper{
+	width: 100%;
+	margin:0px auto;
+
+}
+#header{
+	width: 100%;
+	height: 130px;
+
+	background-color:#555;
+}
+#header #logo{
+	float:left;
+	height: 110px;
+	width: 300px;
+	
+}
+#header #logo img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+ #xinxi{
+ 	float: right;
+ 	
+ 	}
+ 	#xinxi ul{
+ 		list-style: none;
+ 	font-weight: 4px;
+ 	font-size:20px;
+ 	}
+ 	#xinxi a{
+ 		color: #fff;
+ 	}
+	#search{
+		float: right;
+		margin-top: 15px;
+	}
+	#search .stext{
+		width: 200px;
+		height: 25px;
+	}
+	#search .bt{
+		width: 50px;
+		height: 25px;
+	}
+	ul{list-style-type: none;}
+	#nav ul li a{
+		float: left;
+		margin-top: 110px;
+		font-size:14px;
+		color: #fff;
+		width: 100px;
+	}
+	#nav{
+		
+
+	}
+#main{
+	width: 100%;
+	height: 620px;
+	margin-top: 20px;
+
+	
+
+}
+#left{
+	width: 30%;
+	height: 100%;
+	background: #D6E6CC;
+	float: left;
+	line-height: 50px;
+	text-indent: 20px;
+
+}
+#left ul li a{
+	font-size:14px;
+	height: 50px;
+	color: #555;
+}
+#right{
+	width: 65%;
+	height: 100%;
+	line-height: 50px;
+	text-indent: 20px;
+	float: right;
+
+}
+#right ul li a{
+	font-size:14px;
+	height: 50px;
+	color: #555;
+
